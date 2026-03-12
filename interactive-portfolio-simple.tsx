@@ -236,7 +236,7 @@ const InteractivePortfolioSimple = () => {
   const [activeSection, setActiveSection] = useState("intro")
   const [cursorText, setCursorText] = useState("")
   const [isExploring, setIsExploring] = useState(false)
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(true)
   const [isLoading, setIsLoading] = useState(true)
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -356,11 +356,11 @@ const InteractivePortfolioSimple = () => {
     return () => window.removeEventListener("keydown", handleKeyDown)
   }, [activeSection, selectedProject, setSection])
 
-  // Check for saved theme preference
+  // Check for saved theme preference (default is dark)
   useEffect(() => {
     const savedTheme = localStorage.getItem("portfolio-theme")
-    if (savedTheme === "dark") {
-      setIsDarkMode(true)
+    if (savedTheme === "light") {
+      setIsDarkMode(false)
     }
   }, [])
 
