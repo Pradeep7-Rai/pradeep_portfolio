@@ -1,0 +1,142 @@
+{
+  "_comment": "Edit this file to update the portfolio. Save and refresh the browser (or restart dev server) to see changes.",
+  "personal": {
+    "name": "PRADEEP RAI",
+    "tagline": "QA Engineer",
+    "taglineLine2": "SDET",
+    "subtagline": "Building quality experiences that inspire",
+    "location": "Varanasi, UP",
+    "phone": "+91-9140084926",
+    "email": "pradeep7.rai.7@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/pradeep-rai--",
+    "github": "",
+    "twitter": "",
+    "instagram": ""
+  },
+  "intro": {
+    "headlineLine1": "PRADEEP RAI",
+    "headlineLine2": "QA Engineer",
+    "subtagline": "Building quality experiences that inspire",
+    "ctaButton": "Enter Portfolio"
+  },
+  "summary": "Detail-oriented QA Engineer with 3 years of experience in automation testing, specializing in Java Selenium-based frameworks, API testing, and database validation. Strong foundation in OOPs concepts with proven ability to quickly adapt to new languages such as Python for automation. Skilled in integrating tests within CI/CD pipelines, ensuring faster releases and higher product quality. Collaborative team player with hands-on experience across Web, Mobile, and Desktop applications.",
+  "about": {
+    "background": "QA Automation Engineer with 3+ years of experience delivering robust testing solutions across Web, Mobile (iOS/Android), and Desktop (macOS/Windows) environments. Expert in building scalable frameworks using Java and Selenium, with deep technical roots in OOP, ETL testing, and CI/CD integration.",
+    "approach": "I bridge the gap between development and quality by designing high-coverage, low-redundancy automation suites. Currently evolving my toolkit from Java to Python to build more agile, scalable testing architectures that accelerate release cycles without compromising stability."
+  },
+  "skills": [
+    { "name": "Java / Selenium", "level": 90, "color": "#06b6d4" },
+    { "name": "API Testing (Postman, Rest Assured)", "level": 85, "color": "#8b5cf6" },
+    { "name": "Test Automation Frameworks", "level": 88, "color": "#22c55e" },
+    { "name": "SQL / DB Validation", "level": 80, "color": "#f97316" },
+    { "name": "CI/CD Pipelines", "level": 75, "color": "#f43f5e" },
+    { "name": "Python (learning & adapting)", "level": 65, "color": "#2dd4bf" }
+  ],
+  "experience": [
+    {
+      "year": "Jan 2023 – Present",
+      "title": "Software Engineer",
+      "company": "Jio Platforms Ltd.",
+      "location": "Hyderabad, India",
+      "description": "Developed and maintained Selenium automation suites (Java) covering Web, Android, iOS, Mac, and Windows platforms—adaptable to Python for scalable automation. Applied OOPs principles to design reusable test scripts and frameworks, improving test coverage and reducing redundancy. Built and executed API test cases using Postman and Rest Assured, validating RESTful services and ensuring accurate backend integration. Performed data validation and ETL testing by writing SQL queries for verifying data extraction, transformation, and loading processes. Collaborated with cross-functional teams to improve quality metrics—JioMeet (↑30%), HelloJio LLM accuracy (↑45%), JioCinema (↑5%), Jio EVA (↑20%). Currently expanding automation expertise by transitioning Selenium skills from Java to Python."
+    },
+    {
+      "year": "University Project",
+      "title": "Android Communication App",
+      "company": "Full-stack Android Application",
+      "location": "",
+      "description": "Built a full-stack Android application to manage user communications with real-time data synchronization. Designed and tested RESTful APIs for secure message delivery and user authentication using Postman. Validated backend data consistency through SQL queries and automated regression checks. Applied OOPs concepts for modular design, ensuring scalability and maintainability. Technologies: Java, Firebase, Android Studio."
+    },
+    {
+      "year": "Sept 2021 – Oct 2021",
+      "title": "Support Development Intern",
+      "company": "Nano Robotics Embed Technologies",
+      "location": "Hyderabad, India",
+      "description": "Gained hands-on experience in embedded systems and participated in development workflows for robotics-based solutions."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Science",
+      "institution": "Visvesvaraya Technological University",
+      "period": "2018 – 2022",
+      "grade": "CGPA: 7.0"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "projectType": "College Project",
+      "title": "Android Communication App",
+      "description": "Built a full-stack Android application to manage user communications with real-time data synchronization. Designed and tested RESTful APIs for secure message delivery and user authentication using Postman. Validated backend data consistency through SQL queries and automated regression checks. Applied OOPs concepts for modular design, ensuring scalability and maintainability.",
+      "tags": ["Java", "Firebase", "Android Studio", "REST APIs", "Postman"],
+      "color": "#8b5cf6",
+      "image": "/placeholder.svg?height=300&width=500",
+      "liveUrl": "",
+      "codeUrl": ""
+    },
+    {
+      "id": 2,
+      "projectType": "Personal Project",
+      "title": "Enterprise-Grade Hybrid Framework",
+      "description": "A Data-Driven + Keyword-Driven automation framework for an E-commerce site (e.g. SauceDemo), built from scratch with focus on scalability, clean code (SOLID principles), and reporting. Implements Page Object Model (POM), TestNG DataProviders with Apache POI (Excel/JSON), parallel execution via testng.xml, Extent Reports/Allure for visual logs and screenshots on failure, and CI/CD via Jenkins or GitHub Actions on every push.",
+      "tags": ["Java", "Selenium", "TestNG", "Apache POI", "POM", "Extent Reports", "Jenkins", "GitHub Actions"],
+      "color": "#06b6d4",
+      "image": "/placeholder.svg?height=300&width=500",
+      "liveUrl": "",
+      "codeUrl": ""
+    },
+    {
+      "id": 3,
+      "projectType": "Personal Project",
+      "title": "Cross-Platform Mobile & Web Sync",
+      "description": "A \"User Journey\" automation that starts on a Web portal and finishes on a Mobile App (e.g. Forget Password flow: link sent via web, opened in mobile app). Features a unified driver factory for RemoteWebDriver (Web) and AppiumDriver (Android/iOS), TestNG groups (Sanity, Regression, MobileOnly), and expert use of FluentWait/WebDriverWait for platform latency. Demonstrates Appium and Selenium with multi-platform synchronization.",
+      "tags": ["Java", "Selenium", "Appium", "TestNG", "Android", "iOS", "WebDriverWait"],
+      "color": "#22c55e",
+      "image": "/placeholder.svg?height=300&width=500",
+      "liveUrl": "",
+      "codeUrl": ""
+    },
+    {
+      "id": 4,
+      "projectType": "Personal Project",
+      "title": "API + UI Integrated \"Bot\" Tester",
+      "description": "An automation suite that validates a Chatbot's responses by hitting the backend API first, then verifying the UI response. Uses Rest-Assured for JSON schema and status code validation; Selenium to verify the typing indicator and correct message display; and custom ITestListener for custom logging and automatic retry of failed tests. Highlights API + UI integration and AI/Chatbot validation.",
+      "tags": ["Java", "Rest-Assured", "Selenium", "TestNG", "ITestListener", "JSON Schema", "Chatbot"],
+      "color": "#f97316",
+      "image": "/placeholder.svg?height=300&width=500",
+      "liveUrl": "",
+      "codeUrl": ""
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Rajesh Verma",
+      "role": "Engineering Manager",
+      "company": "Jio Platforms Ltd.",
+      "quote": "Pradeep's team automation frameworks have significantly reduced our regression cycle time. His attention to detail and ability to catch edge cases before release has made our deployments much more confident. A true asset to the quality team.",
+      "avatar": "/placeholder.svg?height=80&width=80"
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Product Manager",
+      "company": "JioCinema",
+      "quote": "Working with Pradeep and team on quality metrics was seamless. He doesn't just run tests—he understands product impact and prioritizes what matters. Our quality improvements speak for themselves. Highly recommend for any QA or SDET role.",
+      "avatar": "/placeholder.svg?height=80&width=80"
+    },
+    {
+      "name": "Amit Kumar",
+      "role": "Senior Software Engineer",
+      "company": "JioMeet",
+      "quote": "Pradeep bridges dev and QA brilliantly. His Selenium and API automation caught issues we would have missed in code review. Clean, maintainable test code and great collaboration. The kind of SDET you want on your team.",
+      "avatar": "/placeholder.svg?height=80&width=80"
+    },
+    {
+      "name": "Neha Singh",
+      "role": "QA Lead",
+      "company": "HelloJio / LLM",
+      "quote": "Rare to find someone who combines strong automation skills with a quality-first mindset. Pradeep's work on our test coverage and CI/CD integration has directly improved our release stability. Exceptional professional.",
+      "avatar": "/placeholder.svg?height=80&width=80"
+    }
+  ]
+}
